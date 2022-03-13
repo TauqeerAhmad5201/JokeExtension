@@ -1,0 +1,16 @@
+{
+    "name": "Joke Extension",
+    "version": "0.0.0.1",
+    "author" : "Tauqeer Ahmad and Trisha Banerjee", 
+    "manifest_version": 2,
+    "description": "An extension to display the joke of the day",
+    "icons": {
+        "16": "icons/joke16x16.png",
+        "32": "icons/joke32x32.png",
+        "48": "icons/joke48x48.png",
+        "128": "icons/joke128x128.png"
+    },
+    "browser_action": {
+        "default_popup": "popup/popup.html"
+    }
+}
