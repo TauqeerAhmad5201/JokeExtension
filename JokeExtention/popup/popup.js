@@ -3,7 +3,7 @@
 var request = new XMLHttpRequest()
 
 // Open a new connection, using the GET request on the URL endpoint
-request.open('GET', 'https://v2.jokeapi.dev/joke/Any?blacklistFlags=religious,racist,sexist', true)
+request.open('GET', 'https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,racist,sexist,explicit', true)
 
 request.onload = function () {
     // Begin accessing JSON data here
